@@ -11,3 +11,8 @@ Select a letter to figure out a hidden word in a set amount of chances
 - Show notification when select a letter twice
 - Show popup on win or lose
 - Play again button to reset game
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
