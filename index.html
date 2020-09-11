@@ -9,10 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
     <title>Hangman</title>
   </head>
   <body>
-    <h1>Hangman</h1>
+    <h1>HANGMAN</h1>
     <p>Find the hidden word - Enter a letter</p>
     <div class="game-container">
       <svg height="250" width="200" class="figure-container">
@@ -41,22 +45,22 @@
 
       <div class="wrong-letters-container">
         <div id="wrong-letters"></div>
-
-        <div class="word" id="word"></div>
       </div>
+
+      <div class="word" id="word"></div>
     </div>
 
     <!-- Container for final message -->
     <div class="popup-container" id="popup-container">
       <div class="popup">
         <h2 id="final-message"></h2>
-        <button id="play-button">Play Again!</button>
+        <button id="play-button">Play Again</button>
       </div>
     </div>
 
-    <!-- Notification for already used letter -->
+    <!-- Notification -->
     <div class="notification-container" id="notification-container">
-      <p>You have already entered this letter!</p>
+      <p>You have already entered this letter</p>
     </div>
 
     <script src="script.js"></script>
